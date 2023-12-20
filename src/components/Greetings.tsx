@@ -1,9 +1,9 @@
-import { Heading } from '@chakra-ui/react'
+import { Heading } from "@chakra-ui/react";
 
 interface GreetingsProps {
   name: string;
 }
 
 export default function Greetings({ name }: GreetingsProps) {
-  return <Heading>Hello {name}</Heading>;
+  return <Heading>{name}</Heading>;
 }

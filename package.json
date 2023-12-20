@@ -1,5 +1,6 @@
 {
   "name": "astro-typescript-template",
+  "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
@@ -36,6 +37,7 @@
     "cypress": "^13.6.1",
     "eslint": "^8.56.0",
     "eslint-plugin-astro": "^0.31.0",
+    "jsdom": "^23.0.1",
     "prettier": "^3.1.1",
     "prettier-plugin-astro": "^0.12.2",
     "vitest": "^1.1.0"

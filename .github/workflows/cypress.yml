@@ -28,8 +28,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          working-directory: packages/cypress
-          build: npx cypress run
+          build: pnpm run build
+          start: pnpm start
