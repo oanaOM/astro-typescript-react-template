@@ -3,7 +3,6 @@
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   },
-  "types": ["cypress"],
-  "extends": "astro/tsconfigs/strict",
-  "exclude": [ "cypress.config.ts", "cypress"]
+  "types": ["vitest/importMeta", "vitest/globals", "cypress"],
+  "extends": "astro/tsconfigs/strict"
 }
