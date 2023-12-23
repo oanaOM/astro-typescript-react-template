@@ -1,9 +1,10 @@
-# Astro + TypeScript + React + ChakraUI= <3
+# Astro + TypeScript + React = <3
 
 This is a quick start-up template configured with the following libraries.
 
 - [Astro + TypeScript](https://docs.astro.build/en/guides/typescript/)
-- [Chakra UI](https://chakra-ui.com/) - serves as a system design library
+- [Tailwind](https://tailwindcss.com/docs/guides/astro) - CSS library
+- [Flowbite](https://tailwindcss.com/docs/guides/astro) - Tailwind component library
 - [Vitest](https://vitest.dev/) - for unit testing
 - [Cypress](https://docs.cypress.io/guides/tooling/typescript-support) - for integration tests
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/example-intro) - for component testing
