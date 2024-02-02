@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 jobs:
@@ -28,5 +28,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run unit tests
+      - name: Run unit build
         run: pnpm run build
