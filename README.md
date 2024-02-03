@@ -10,6 +10,22 @@ This is a quick start-up template configured with the following libraries.
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/example-intro) - for component testing
 - GitHub actions for e2e tests, unit tests and build
 
+# Development
+
+To start the project, you will need to run in the root folder of the app the below command to install the dependencies:
+
+```bash
+pnpm install
+```
+
+and run this command to start the application in development mode:
+
+```bash
+pnpm run dev
+```
+
+Now open your favourite browser, navigate to `localhost:4321` and the you should see the home page.
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
